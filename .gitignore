@@ -1,0 +1,37 @@
+# IDE
+.idea
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Poetry
+.poetry/
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Alembic
+# Keep alembic directory structure but ignore pycache
+src/core/database/alembic/__pycache__/
+src/core/database/alembic/versions/__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
